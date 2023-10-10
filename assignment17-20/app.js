@@ -81,19 +81,19 @@
 
 //7
 
-// var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
 
-// var item = prompt("Welcome to United, What do you want to order Sir/Ma'am?");
+var item = prompt("Welcome to United, What do you want to order Sir/Ma'am?");
 
-// for(p=0; p<bakery.length;p++){
+for(p=0; p<bakery.length;p++){
 
-//     if(item.toLowerCase() == bakery[p]){
-//         document.write(`${item} is available at index ${p} in our bakery`);
-//     }
-// }
-// if(item != bakery[p]){
-//     document.write(`We are sorry. ${item} is not available in our bakery`);
-// }
+    if(item.toLowerCase() == bakery[p]){
+        document.write(`${item} is available at index ${p} in our bakery`);
+    }
+}
+if(item != bakery[p]){
+    document.write(`We are sorry. ${item} is not available in our bakery`);
+}
 
 //8
 
