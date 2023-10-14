@@ -117,7 +117,7 @@ var curDate = new Date();
 // document.write(`Your age is ${age} <br> Your birth year is ${birthYear}`);
 
 
-//14
+14
 // var custName = prompt("Enter customer name");
 // var mon = prompt("Enter bill month");
 // var units = +prompt("Enter number of units consumed");
